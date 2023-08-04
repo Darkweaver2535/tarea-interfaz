@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 20px;
+  }
+  
