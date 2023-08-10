@@ -2,7 +2,7 @@
 .rectangle {
     width: 300px; /* Ancho del rectángulo */
     height: 200px; /* Altura del rectángulo */
-    background-color: #3498db; /* Color de fondo */
+    background-color: #1C458F; /* Color de fondo */
     border-radius: 15px; /* Radio de los bordes redondeados */
     margin: 50px auto; /* Centrado horizontal y margen superior */
     position: relative; /* Permite la posición de los rectángulos pequeños */
@@ -10,7 +10,7 @@
   
   /* Estilos de los rectángulos pequeños */
   .small-rectangle {
-    background-color: #e74c3c; /* Color de fondo */
+    background-color: #F7CD46; /* Color de fondo */
     border-radius: 10px; /* Radio de los bordes redondeados */
     position: absolute; /* Posicionamiento absoluto */
     top: 50px; /* Ajusta la posición vertical */
@@ -18,18 +18,19 @@
   
   /* Estilos para el primer rectángulo pequeño */
   .small-rectangle-1 {
-    width: 150px; /* Ancho del rectángulo pequeño */
-    height: 110px; /* Altura del rectángulo pequeño */
-    left: 50px; /* Ajusta la posición horizontal */
+    width: 200px; /* Ancho del rectángulo pequeño */
+    height: 50px; /* Altura del rectángulo pequeño */
+    top: 180px; /* Ajusta la posición vertical */
+    left: 230px; /* Ajusta la posición horizontal */
   }
   
   /* Estilos para el segundo rectángulo pequeño */
   .small-rectangle-2 {
-    width: 70px; /* Ancho del rectángulo pequeño */
-    height: 60px; /* Altura del rectángulo pequeño */
-    left: 250px; /* Ajusta la posición horizontal */
-    top: 150px; /* Ajusta la posición vertical */
-    background-color: #27ae60; /* Color de fondo diferente */
+    width: 50px; /* Ancho del rectángulo pequeño */
+    height: 50px; /* Altura del rectángulo pequeño */
+    left: 440px; /* Ajusta la posición horizontal */
+    top: 180px; /* Ajusta la posición vertical */
+    background-color: #F7CD46; /* Color de fondo diferente */
   }
   .small-rectangle-3 {
     width: 80px; /* Ancho del rectángulo pequeño */
