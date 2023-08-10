@@ -1,72 +1,85 @@
-/* Estilos del rectángulo principal */
 .rectangle {
-    width: 300px; /* Ancho del rectángulo */
-    height: 200px; /* Altura del rectángulo */
-    background-color: #1C458F; /* Color de fondo */
-    border-radius: 15px; /* Radio de los bordes redondeados */
-    margin: 50px auto; /* Centrado horizontal y margen superior */
-    position: relative; /* Permite la posición de los rectángulos pequeños */
+    width: 300px; 
+    height: 200px; 
+    background-color: #1C458F; 
+    border-radius: 15px; 
+    margin: 50px auto; 
+    position: relative; 
   }
   .rectangle p {
-    position: absolute; /* Posicionamiento absoluto para el texto */
-    top: 50px; /* Ajusta la posición vertical del texto */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente con respecto al rectángulo */
+    position: absolute; 
+    top: 63px; 
+    left: 50%;
+    left: 5%; 
+    right: 5%; 
     text-align: center;
-    color: rgb(255, 255, 255); /* Color del texto */
-    font-size: 8px; /* Tamaño del texto */
+    color: rgb(255, 255, 255); 
+    font-size: 9px; 
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .rectangle h1 {
+    position: absolute;
+    top: 38px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: top;
+    color: rgb(255, 255, 255);
+    font-size: 16px; 
+    font-family: 'Poppins', sans-serif;
+
   }
   
-  /* Estilos de los rectángulos pequeños */
   .small-rectangle {
-    background-color: #F7CD46; /* Color de fondo */
-    border-radius: 10px; /* Radio de los bordes redondeados */
-    position: absolute; /* Posicionamiento absoluto */
-    top: 50px; /* Ajusta la posición vertical */
+    background-color: #F7CD46; 
+    border-radius: 10px; 
+    position: absolute; 
+    top: 50px; 
   }
   
-  /* Estilos para el primer rectángulo pequeño */
   .small-rectangle-1 {
-    width: 200px; /* Ancho del rectángulo pequeño */
-    height: 50px; /* Altura del rectángulo pequeño */
-    top: 180px; /* Ajusta la posición vertical */
-    left: 230px; /* Ajusta la posición horizontal */
+    width: 200px; 
+    height: 50px; 
+    top: 180px; 
+    left: 230px;
   }
   .small-rectangle-1 p {
-    position: relative; /* Posicionamiento absoluto para el texto */
-    top: 0; /* Ajusta la posición vertical del texto */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente con respecto al rectángulo */
+    position: relative; 
+    top: -7px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     text-align: center;
-    color: rgb(0, 0, 0); /* Color del texto */
-    font-size: 21px; /* Tamaño del texto */
+    color: rgb(0, 0, 0); 
+    font-size: 21px; 
+    font-family: 'Poppins', sans-serif;
+
   }
-  /* Estilos para el segundo rectángulo pequeño */
   .small-rectangle-2 {
-    width: 50px; /* Ancho del rectángulo pequeño */
-    height: 50px; /* Altura del rectángulo pequeño */
-    left: 440px; /* Ajusta la posición horizontal */
-    top: 180px; /* Ajusta la posición vertical */
-    background-color: #F7CD46; /* Color de fondo diferente */
+    width: 50px; 
+    height: 50px; 
+    left: 440px; 
+    top: 180px; 
+    background-color: #F7CD46; 
   }
   .small-rectangle-2 p {
-    position: relative; /* Posicionamiento absoluto para el texto */
-    top: 0; /* Ajusta la posición vertical del texto */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente con respecto al rectángulo */
+    position: relative; 
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    color: rgb(0, 0, 0); /* Color del texto */
-    font-size: 21px; /* Tamaño del texto */
+    color: rgb(0, 0, 0); 
+    font-size: 21px; 
+    font-family: 'Poppins', sans-serif;
   }
   .small-rectangle-3 {
-    width: 80px; /* Ancho del rectángulo pequeño */
-    height: 80px; /* Altura del rectángulo pequeño */
-    left: 318px; /* Ajusta la posición horizontal */
-    top: 10px; /* Ajusta la posición vertical */
-    background-image: url('imagen.jpeg'); /* Ruta de la imagen */
-    background-size: cover; /* Escala la imagen para llenar el círculo */
-    background-position: center; /* Centra la imagen */
-    border-radius: 50%; /* Hace que sea un círculo */
+    width: 80px; 
+    height: 80px; 
+    left: 318px; 
+    top: 10px; 
+    background-image: url('imagen.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 50%; 
     border: 3px solid #1C458F;
   }
  
