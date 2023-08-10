@@ -1,33 +1,44 @@
-/* Estilos generales del contenedor */
-.rectangle-container {
-    position: relative; /* Permite posicionar elementos absolutos dentro */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Ajusta la altura según tus necesidades */
-  }
-  
-  /* Estilos del rectángulo grande */
-  .rounded-rectangle {
+/* Estilos del rectángulo principal */
+.rectangle {
     width: 300px; /* Ancho del rectángulo */
-    height: 150px; /* Altura del rectángulo */
+    height: 200px; /* Altura del rectángulo */
     background-color: #3498db; /* Color de fondo */
     border-radius: 15px; /* Radio de los bordes redondeados */
-    padding: 20px; /* Espacio interno dentro del rectángulo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    position: relative; /* Permitir que el rectángulo pequeño se superponga */
+    margin: 50px auto; /* Centrado horizontal y margen superior */
+    position: relative; /* Permite la posición de los rectángulos pequeños */
   }
   
-  /* Estilos del rectángulo pequeño */
+  /* Estilos de los rectángulos pequeños */
   .small-rectangle {
-    width: 100px; /* Ancho del rectángulo pequeño */
-    height: 50px; /* Altura del rectángulo pequeño */
     background-color: #e74c3c; /* Color de fondo */
     border-radius: 10px; /* Radio de los bordes redondeados */
-    position: absolute; /* Superposición */
-    top: -25px; /* Ajusta la posición vertical */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%); /* Centra exactamente en horizontal */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50px; /* Ajusta la posición vertical */
   }
   
+  /* Estilos para el primer rectángulo pequeño */
+  .small-rectangle-1 {
+    width: 150px; /* Ancho del rectángulo pequeño */
+    height: 110px; /* Altura del rectángulo pequeño */
+    left: 50px; /* Ajusta la posición horizontal */
+  }
+  
+  /* Estilos para el segundo rectángulo pequeño */
+  .small-rectangle-2 {
+    width: 70px; /* Ancho del rectángulo pequeño */
+    height: 60px; /* Altura del rectángulo pequeño */
+    left: 250px; /* Ajusta la posición horizontal */
+    top: 150px; /* Ajusta la posición vertical */
+    background-color: #27ae60; /* Color de fondo diferente */
+  }
+  .small-rectangle-3 {
+    width: 80px; /* Ancho del rectángulo pequeño */
+    height: 80px; /* Altura del rectángulo pequeño */
+    left: 318px; /* Ajusta la posición horizontal */
+    top: 10px; /* Ajusta la posición vertical */
+    background-image: url('imagen.jpeg'); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para llenar el círculo */
+    background-position: center; /* Centra la imagen */
+    border-radius: 50%; /* Hace que sea un círculo */
+    border: 3px solid white;
+  }
